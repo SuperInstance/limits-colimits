@@ -1,0 +1,12 @@
+[package]
+name = "limits-colimits"
+version = "0.1.0"
+edition = "2024"
+description = "Category theory limits and colimits: concrete implementations for Set with products, coproducts, pullbacks, pushouts, equalizers, and coequalizers"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/SuperInstance/limits-colimits"
+keywords = ["category-theory", "limits", "colimits", "mathematics"]
+categories = ["mathematics", "data-structures"]
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
